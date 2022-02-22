@@ -9,10 +9,7 @@ Install LADB: [https://github.com/sp1cyf0x/LADB/releases](https://github.com/sp1
 
 **Steps:**
 1. Pair LADB ([video guide](https://www.youtube.com/watch?v=4zKespn_OHg))
-2. Paste and execute the following command into LADB shell:
-
-```pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp```
-
+2. Paste and execute the following command into LADB shell: ```pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp```
 3. Open Logcat Reader and hit the ⚫ button.
 4. Reproduce the crash.
 5. Hit the ⬛ button and share the log to Discord/your app of choice.
@@ -30,10 +27,7 @@ Follow any guide on how to setup adb between your PC and phone, example: [https:
 
 **Steps:**
 1. Pair your phone to your computer using the video above or any other guide, until your device appears when using the shell command: ```adb devices```
-2. Paste and run the following command:
-
-```adb shell "pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp"```
-
+2. Paste and run the following command: ```adb shell "pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp"```
 3. Disconnect your phone from your computer.
 4. Open Logcat Reader and hit the ⚫ button.
 5. Reproduce the crash.
