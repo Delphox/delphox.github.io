@@ -3,9 +3,9 @@
 ### Option 1: Without a PC (Android 11+)
 **Prerequisites:**
 
-Install Logcat Reader: https://play.google.com/store/apps/details?id=com.dp.logcatapp
+Install Logcat Reader: [https://play.google.com/store/apps/details?id=com.dp.logcatapp](https://play.google.com/store/apps/details?id=com.dp.logcatapp)
 
-Install LADB: https://github.com/sp1cyf0x/LADB/releases (app-release.apk)
+Install LADB: [https://github.com/sp1cyf0x/LADB/releases](https://github.com/sp1cyf0x/LADB/releases) (app-release.apk)
 
 **Steps:**
 1. Pair LADB ([video guide](https://www.youtube.com/watch?v=4zKespn_OHg))
@@ -24,9 +24,9 @@ The initial setup is only done once. From then on, you can just follow step 3-5 
 ### Option 2: With PC (Android 4.1+)
 **Prerequisites:**
 
-Install Logcat Reader: https://play.google.com/store/apps/details?id=com.dp.logcatapp
+Install Logcat Reader: [https://play.google.com/store/apps/details?id=com.dp.logcatapp](https://play.google.com/store/apps/details?id=com.dp.logcatapp)
 
-Follow any guide on how to setup adb between your PC and phone, example: https://www.youtube.com/watch?v=vr0GLIufzkM
+Follow any guide on how to setup adb between your PC and phone, example: [https://www.youtube.com/watch?v=vr0GLIufzkM](https://www.youtube.com/watch?v=vr0GLIufzkM)
 
 **Steps:**
 1. Pair your phone to your computer using the video above or any other guide, until your device appears when using the shell command: ```adb devices```
