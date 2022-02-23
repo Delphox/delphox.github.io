@@ -7,6 +7,8 @@ Install Logcat Reader: [https://play.google.com/store/apps/details?id=com.dp.log
 
 Install LADB: [https://github.com/sp1cyf0x/LADB/releases](https://github.com/sp1cyf0x/LADB/releases) (app-release.apk)
 
+**Make sure you are connected to a Wi-Fi network**. If you don't have home Wi-Fi then make a temporary hotspot with another device (the Wi-Fi doesn't need to have internet).
+
 **Steps:**
 1. Pair LADB ([video guide](https://www.youtube.com/watch?v=4zKespn_OHg))
 2. Paste and execute the following command into LADB shell: ```pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp```
