@@ -10,7 +10,7 @@ Install LADB: [https://github.com/sp1cyf0x/LADB/releases](https://github.com/sp1
 **Make sure you are connected to a Wi-Fi network**. If you don't have home Wi-Fi then make a temporary hotspot with another device (the Wi-Fi doesn't need to have internet).
 
 **Steps:**
-1. Pair LADB ([video guide](https://www.youtube.com/watch?v=4zKespn_OHg)). **Note:** on Xiaomi/MIUI devices, also toggle "USB Debugging (Security Settings)" in Developer Tools.
+1. Pair LADB ([video guide](https://www.youtube.com/watch?v=4zKespn_OHg)). **Note:** on some devices, e.g. Xiaomi/MIUI,  you must enable “USB Debugging (Security Settings)” in Developer Tools.
 2. Paste and execute the following command into LADB shell: ```pm grant com.dp.logcatapp android.permission.READ_LOGS && am force-stop com.dp.logcatapp```
 3. Open Logcat Reader and hit the ⚫ button.
 4. Reproduce the crash.
@@ -25,7 +25,7 @@ The initial setup is only done once. After the command is executed successfully,
 
 Install Logcat Reader: [https://play.google.com/store/apps/details?id=com.dp.logcatapp](https://play.google.com/store/apps/details?id=com.dp.logcatapp)
 
-Follow any guide on how to setup adb between your PC and phone, example: [https://www.youtube.com/watch?v=vr0GLIufzkM](https://www.youtube.com/watch?v=vr0GLIufzkM). **Note:** on Xiaomi/MIUI devices, also toggle "USB Debugging (Security Settings)" in Developer Tools.
+Follow any guide on how to setup adb between your PC and phone, example: [https://www.youtube.com/watch?v=vr0GLIufzkM](https://www.youtube.com/watch?v=vr0GLIufzkM). **Note:** on some devices, e.g. Xiaomi/MIUI,  you must enable “USB Debugging (Security Settings)” in Developer Tools.
 
 **Steps:**
 1. Pair your phone to your computer using the video above or any other guide, until your device appears when using the shell command: ```adb devices```
